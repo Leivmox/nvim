@@ -4,6 +4,14 @@
 local opt = vim.opt
 vim.opt.clipboard = "unnamedplus"
 
+-- 默认文件编码
+vim.opt.fileencoding = "utf-8"
+vim.opt.encoding = "utf-8"
+
+-- 默认换行符 LF
+vim.opt.fileformat = "unix"
+vim.opt.fileformats = { "unix", "dos" }
+
 vim.g.clipboard = {
   name = "win32yank",
   copy = {
