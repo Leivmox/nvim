@@ -31,6 +31,13 @@ return {
       -- Python 文件使用 isort 先排序 import，然后用 black 格式化代码
       python = { "isort", "black" },
 
+      -- C 和 C++ 文件使用 clang-format
+      c = { "clang-format" },
+      cpp = { "clang-format" },
+
+      -- java用clang-format
+      java = { "clang-format" },
+
       -- 前端和其他文件使用 prettier
       javascript = { "prettier" },
       typescript = { "prettier" },
