@@ -15,3 +15,5 @@ end
 
 ---- 保持光标上下至少有 10 行距离
 vim.opt.scrolloff = 10
+
+vim.opt.title = false
