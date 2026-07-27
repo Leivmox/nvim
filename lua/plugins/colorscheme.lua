@@ -13,6 +13,9 @@ return {
           methods = "NONE",
           numbers = "NONE",
         },
+        -- highlights = {
+        --   Cursor = { bg = "#00ff00", fg = "#000000" },
+        -- },
       })
       -- 立即生效
       vim.cmd("colorscheme onedark")

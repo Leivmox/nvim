@@ -17,3 +17,12 @@ end
 vim.opt.scrolloff = 10
 
 vim.opt.title = false
+
+-- 优先以 unix (LF) 格式读取文件，其次是 dos (CRLF)
+vim.opt.fileformats = { "unix", "dos", "mac" }
+
+-- 设置新建文件时的默认换行符为 unix (LF)
+vim.opt.fileformat = "unix"
+
+-- 禁用滚动操作
+vim.g.snacks_scroll = false
