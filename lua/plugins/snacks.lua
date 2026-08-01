@@ -5,6 +5,7 @@ return {
       picker = {
         sources = {
           explorer = {
+            hidden = true, -- 默认显示隐藏文件
             win = {
               list = {
                 keys = {
